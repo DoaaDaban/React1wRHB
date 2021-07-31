@@ -1,5 +1,4 @@
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import Modal from "react-bootstrap/Modal";
 import { Button } from 'react-bootstrap';
 
@@ -13,7 +12,6 @@ class SelectedBeast extends React.Component {
 
                 <Modal show={this.props.show} onHide={this.props.handleClose} >
 
-                    inside modal
                     <Modal.Header closeButton>
                         <Modal.Title>{this.props.title}</Modal.Title>
                     </Modal.Header>

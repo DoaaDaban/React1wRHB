@@ -13,8 +13,7 @@ class Main extends React.Component {
                     <Container>
                 <Row xs={1} md={4} className="g-4">
                     {
-
-                       this.props.dataArr.map((item) =>{
+                       this.props.data.map((item) =>{
                             return <div>
                                 <HornedBeasts
 

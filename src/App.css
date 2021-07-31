@@ -1,6 +1,16 @@
 
-  /* .Card {
-    border-style: solid;
-    border-width:20px;
-    border-color: rgb(241, 86, 14);
-  }   */
+ .card {
+
+  border-style: solid;
+  border-width:20px;
+  border-color:rgb(128, 15, 0);
+  /* margin: 20px; */
+}
+
+
+.header {
+  color: rgb(128, 15, 0);
+  background-color: #c3ecea;
+  padding-bottom: 15px;
+  padding-top: 10px;
+}
